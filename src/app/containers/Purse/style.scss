@@ -1,0 +1,25 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(20deg, #2362c7 10%, #307cf0 50%, #3362b8, #953e8f);
+}
+
+.swiperWrapper {
+  padding: 20px;
+}
+
+.buttonsWrapper {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.listWrapper {
+  flex-grow: 1;
+  background-color: whitesmoke;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #67646d;
+  padding: 0 12px;
+  overflow: scroll;
+}

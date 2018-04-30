@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500');
+
+@import 'normalize.css/normalize.css';
+@import 'slick-carousel/slick/slick.css';
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  font-weight: 100;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  color: whitesmoke;
+  font-weight: 100;
+}
+
+button[disabled] {
+  opacity: 0.5;
+}
+
+body {
+  font: 14px Roboto, sans-serif;
+  line-height: 1.4em;
+  background: #f5f5f5;
+  color: whitesmoke;
+  padding: 20px;
+  font-weight: 100;
+}
+
+button, input[type='checkbox'] {
+  outline: none;
+}
+
+.slick-dots {
+  position: relative;
+  bottom: 0;
+}
+
+.slick-dots li {
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.slick-dots li button {
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+.slick-dots li button:before {
+  width: 10px;
+  height: 10px;
+  line-height: 10px;
+  position: relative;
+  color: whitesmoke;
+  vertical-align: top;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}

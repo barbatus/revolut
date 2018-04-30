@@ -1,0 +1,25 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.secondText {
+  font-size: 12px;
+}
+
+.dateText {
+  @extend .secondText;
+  font-weight: 100;
+}
+
+.fromVal {
+  @extend .secondText;
+  color: #8eb5da;
+}
+
+.exAmount {
+  text-align: right;
+}

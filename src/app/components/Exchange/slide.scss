@@ -1,0 +1,36 @@
+.container {
+  padding: 10px 20px;
+}
+
+.inputRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+
+  span {
+    text-transform: uppercase;
+  }
+
+  input {
+    font-size: 25px;
+    background-color: transparent;
+    border: 0;
+    text-align: right;
+    color: inherit;
+    width: 80%;
+    outline: 0;
+  }
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+
+  > div {
+    font-size: 12px;
+    opacity: 0.6;
+  }
+}

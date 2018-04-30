@@ -1,0 +1,16 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#1259ce 10%, #1f68ea 30%, #2f7cf3 50%);
+}
+
+.swiperWrapper {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.swiperWrapperFrom {
+  @extend .swiperWrapper;
+  padding-top: 20px;
+  background: radial-gradient(#2461bf, #1a53aa, #164da0);
+} 
