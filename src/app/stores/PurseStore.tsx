@@ -37,7 +37,6 @@ export class PurseStore {
       const currencies = Object.keys(CURRENCIES);
       const usdRates = yield exchangeSrv.loadUSDRates(currencies);
       this.rates = this.updateRates(usdRates, this.rates, currencies);
-      this.hasFreshRates = true;
     } catch (ex) {
       console.log(ex);
     }

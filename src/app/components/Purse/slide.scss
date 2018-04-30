@@ -5,7 +5,7 @@
 }
 
 .valueRow {
-  font-size: 30px;
+  font-size: calc(var(--input-font-size) * 1.5);
   margin: 50px 0 30px;
 }
 
