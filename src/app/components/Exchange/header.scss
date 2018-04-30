@@ -1,3 +1,5 @@
+@import 'vars.css';
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -7,13 +9,13 @@
 
   button {
     cursor: pointer;
-    font-size: 13px;
+    font-size: var(--link-font-size);
   }
 
   .rate {
     background-color: #1356c1;
     padding: 2.5px 10px;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     border: 1px solid #3279e7;
   }
 }

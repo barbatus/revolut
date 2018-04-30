@@ -1,13 +1,15 @@
+@import 'vars.css';
+
 .listItem {
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
-  font-size: 13px;
+  font-size: var(--link-font-size);
   font-weight: 400;
 }
 
 .secondText {
-  font-size: 12px;
+  font-size: var(--second-text-size);
 }
 
 .dateText {

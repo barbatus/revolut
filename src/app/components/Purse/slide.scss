@@ -1,3 +1,5 @@
+@import 'vars.css';
+
 .valueRow, .currencyRow {
   text-align: center;
 }
@@ -8,5 +10,5 @@
 }
 
 .currencyRow {
-  font-size: 12px;
+  font-size: var(--second-text-size);
 }

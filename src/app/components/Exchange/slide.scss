@@ -1,3 +1,5 @@
+@import 'vars.css';
+
 .container {
   padding: 10px 20px;
 }
@@ -6,14 +8,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 25px;
+  font-size: var(--input-font-size);
 
   span {
     text-transform: uppercase;
   }
 
   input {
-    font-size: 25px;
+    font-size: var(--input-font-size);
     background-color: transparent;
     border: 0;
     text-align: right;
@@ -30,7 +32,7 @@
   margin-top: 10px;
 
   > div {
-    font-size: 12px;
+    font-size: var(--second-text-size);
     opacity: 0.6;
   }
 }

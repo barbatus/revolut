@@ -1,8 +1,10 @@
+@import 'vars.css';
+
 .container {
   width: 300px;
   height: 400px;
   margin: 0 auto;
   border: 1px solid transparent;
   color: whitesmoke;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
 }

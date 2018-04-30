@@ -17,9 +17,9 @@ var postcssLoader = {
   options: {
     ident: 'postcss',
     plugins: [
-      require('postcss-import')({ addDependencyTo: webpack }),
+      require('postcss-import')({ addDependencyTo: webpack, path: ['src'] }),
       require('postcss-url')(),
-      require('postcss-cssnext')(),
+      require('postcss-cssnext')({}),
       require('postcss-reporter')(),
       require('postcss-browser-reporter')({
         disabled: isProduction
