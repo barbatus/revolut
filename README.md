@@ -1,3 +1,5 @@
+An example of React App built with TypeScript + MobX + CSS modules and CSS next
+
 ## Setup
 
 ```
